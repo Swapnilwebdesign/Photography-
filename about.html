@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Lumière Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">Lumière</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle">◐</button>
+      <button class="nav-burger" id="navBurger"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- ABOUT HERO -->
+  <div class="page-hero" style="padding-top:calc(72px + 4rem)">
+    <span class="section-label">Our Story</span>
+    <h1 style="font-family:var(--font-display);font-size:clamp(3rem,6vw,5rem);font-weight:300;margin-top:1rem">
+      About <em style="font-style:italic;color:var(--accent)">Us</em>
+    </h1>
+  </div>
+
+  <!-- MAIN ABOUT -->
+  <section>
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <img 
+          src="https://picsum.photos/seed/photographer/600/800" 
+          alt="Photographer"
+          style="width:100%;aspect-ratio:3/4;object-fit:cover"
+        />
+      </div>
+      <div class="about-text">
+        <h2>
+          We don't just take photos —<br>
+          we craft <em>visual poetry</em>
+        </h2>
+        <p>
+          Founded in 2012, Lumière Studio has been at the forefront of fine-art photography 
+          in India. Our name, drawn from the French word for light, reflects our philosophy: 
+          every photograph is a dance between light and shadow, between the fleeting and the eternal.
+        </p>
+        <p>
+          Led by acclaimed photographer Arjun Mehta, our team brings over a decade of expertise 
+          to every shoot. From intimate pre-wedding sessions to grand celebration events, we approach 
+          each project as a unique story waiting to be told.
+        </p>
+        <p>
+          We believe in authenticity over perfection — in capturing real emotions, genuine laughter, 
+          and the quiet moments between the planned ones. Our images don't just document events; 
+          they preserve the essence of who you are.
+        </p>
+        <div style="display:flex;gap:2rem;margin-top:2rem;padding-top:2rem;border-top:1px solid var(--border)">
+          <div>
+            <div style="font-family:var(--font-display);font-size:2.5rem;color:var(--accent);line-height:1">850+</div>
+            <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-top:0.3rem">Weddings</div>
+          </div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:2.5rem;color:var(--accent);line-height:1">12</div>
+            <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-top:0.3rem">Years</div>
+          </div>
+          <div>
+            <div style="font-family:var(--font-display);font-size:2.5rem;color:var(--accent);line-height:1">47</div>
+            <div style="font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--text-muted);margin-top:0.3rem">Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section style="background:var(--bg2)">
+    <div class="section-header">
+      <span class="section-label">The Team</span>
+      <h2 class="section-title">Meet the <em>Artists</em></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2rem">
+      <div style="text-align:center">
+        <div style="overflow:hidden;margin-bottom:1.5rem">
+          <img src="https://picsum.photos/seed/arjun/400/500" alt="Arjun" style="width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform 0.5s ease" 
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+        </div>
+        <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:300">Arjun Mehta</h3>
+        <p style="font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-top:0.3rem">Lead Photographer</p>
+      </div>
+      <div style="text-align:center">
+        <div style="overflow:hidden;margin-bottom:1.5rem">
+          <img src="https://picsum.photos/seed/priya/400/500" alt="Priya" style="width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform 0.5s ease"
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+        </div>
+        <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:300">Priya Sharma</h3>
+        <p style="font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-top:0.3rem">Portrait Specialist</p>
+      </div>
+      <div style="text-align:center">
+        <div style="overflow:hidden;margin-bottom:1.5rem">
+          <img src="https://picsum.photos/seed/rohan/400/500" alt="Rohan" style="width:100%;aspect-ratio:3/4;object-fit:cover;transition:transform 0.5s ease"
+            onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'" />
+        </div>
+        <h3 style="font-family:var(--font-display);font-size:1.5rem;font-weight:300">Rohan Verma</h3>
+        <p style="font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);margin-top:0.3rem">Cinematographer</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Lumière Studio</span>
+        <p>Capturing life's most precious moments with artistry and soul.</p>
+      </div>
+      <div class="footer-links">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Lumière Studio. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/911234567890" class="whatsapp-btn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.122 1.523 5.854L.057 23.882l6.187-1.424A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.946 0-3.769-.497-5.35-1.368l-3.774.868.894-3.656A9.958 9.958 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+
+  <script>
+    const themeToggle = document.getElementById('themeToggle');
+    const html = document.documentElement;
+    html.setAttribute('data-theme', localStorage.getItem('theme') || 'dark');
+    themeToggle?.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => nav?.classList.toggle('scrolled', window.scrollY > 20));
+    document.getElementById('navBurger')?.addEventListener('click', () => {
+      document.getElementById('mobileMenu')?.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>

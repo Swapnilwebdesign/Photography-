@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — Lumière Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav-logo">Lumière</a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link active">Services</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle">◐</button>
+      <button class="nav-burger" id="navBurger"><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="page-hero" style="padding-top:calc(72px + 4rem)">
+    <span class="section-label">What We Offer</span>
+    <h1 style="font-family:var(--font-display);font-size:clamp(3rem,6vw,5rem);font-weight:300;margin-top:1rem">
+      Our <em style="font-style:italic;color:var(--accent)">Services</em>
+    </h1>
+    <p style="color:var(--text-muted);margin-top:1rem;font-size:0.9rem;max-width:500px">
+      Premium photography and videography packages tailored to your story
+    </p>
+  </div>
+
+  <section>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <h3>Wedding Photography</h3>
+        <p>Complete coverage of your special day, from the intimate morning preparations to the last dance. Our team captures every heartfelt moment with cinematic precision and artistic vision.</p>
+        <ul style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem;display:flex;flex-direction:column;gap:0.5rem;list-style:none;padding:0">
+          <li>✦ Full-day coverage (12+ hours)</li>
+          <li>✦ 2 professional photographers</li>
+          <li>✦ 500+ edited digital photos</li>
+          <li>✦ Online gallery delivery</li>
+          <li>✦ Premium album (optional)</li>
+        </ul>
+        <div class="service-price">Starting ₹75,000</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <h3>Pre-Wedding Shoot</h3>
+        <p>A romantic storytelling session that captures your love before the big day. We scout unique locations that speak to your relationship and create images that will last a lifetime.</p>
+        <ul style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem;display:flex;flex-direction:column;gap:0.5rem;list-style:none;padding:0">
+          <li>✦ 4-6 hour session</li>
+          <li>✦ 1-2 locations</li>
+          <li>✦ 200+ edited photos</li>
+          <li>✦ Styling guidance</li>
+          <li>✦ Same-week delivery</li>
+        </ul>
+        <div class="service-price">Starting ₹35,000</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <h3>Events & Corporate</h3>
+        <p>From milestone birthdays to corporate galas, our event photography ensures no significant moment goes undocumented. Professional, efficient, and discreet coverage for any gathering.</p>
+        <ul style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem;display:flex;flex-direction:column;gap:0.5rem;list-style:none;padding:0">
+          <li>✦ Flexible coverage hours</li>
+          <li>✦ Quick turnaround (48 hours)</li>
+          <li>✦ High-resolution images</li>
+          <li>✦ Candid + posed coverage</li>
+        </ul>
+        <div class="service-price">Starting ₹20,000</div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <h3>Fashion & Editorial</h3>
+        <p>Studio and on-location fashion photography for models, designers, and brands. Our editorial eye and technical expertise create images that stop the scroll and tell compelling visual stories.</p>
+        <ul style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem;display:flex;flex-direction:column;gap:0.5rem;list-style:none;padding:0">
+          <li>✦ Studio / location options</li>
+          <li>✦ Creative direction included</li>
+          <li>✦ 50+ final retouched images</li>
+          <li>✦ Commercial licensing available</li>
+        </ul>
+        <div class="service-price">Starting ₹25,000</div>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:4rem">
+      <p style="color:var(--text-muted);margin-bottom:1.5rem">Have a custom project in mind?</p>
+      <a href="contact.html" class="btn-primary">Get a Custom Quote</a>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section style="background:var(--bg2)">
+    <div class="section-header">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">The Lumière <em>Difference</em></h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:3rem">
+      <div>
+        <div style="font-size:2rem;margin-bottom:1rem">◈</div>
+        <h4 style="font-family:var(--font-display);font-size:1.3rem;font-weight:300;margin-bottom:0.8rem">Artistic Vision</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7">Every image is composed with intention. We see the frame before we press the shutter.</p>
+      </div>
+      <div>
+        <div style="font-size:2rem;margin-bottom:1rem">◈</div>
+        <h4 style="font-family:var(--font-display);font-size:1.3rem;font-weight:300;margin-bottom:0.8rem">Fast Delivery</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7">Preview gallery within 7 days. Full delivery within 4-6 weeks. We respect your time.</p>
+      </div>
+      <div>
+        <div style="font-size:2rem;margin-bottom:1rem">◈</div>
+        <h4 style="font-family:var(--font-display);font-size:1.3rem;font-weight:300;margin-bottom:0.8rem">Premium Albums</h4>
+        <p style="color:var(--text-muted);font-size:0.9rem;line-height:1.7">Handcrafted Italian-bound albums that become heirlooms passed through generations.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">Lumière Studio</span>
+        <p>Capturing life's most precious moments with artistry and soul.</p>
+      </div>
+      <div class="footer-links">
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Lumière Studio. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/911234567890" class="whatsapp-btn" target="_blank">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.554 4.122 1.523 5.854L.057 23.882l6.187-1.424A11.944 11.944 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.946 0-3.769-.497-5.35-1.368l-3.774.868.894-3.656A9.958 9.958 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+  </a>
+
+  <script>
+    const html = document.documentElement;
+    html.setAttribute('data-theme', localStorage.getItem('theme') || 'dark');
+    document.getElementById('themeToggle')?.addEventListener('click', () => {
+      const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+    });
+    document.getElementById('navBurger')?.addEventListener('click', () => {
+      document.getElementById('mobileMenu')?.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
